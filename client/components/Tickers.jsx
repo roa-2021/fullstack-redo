@@ -1,12 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import Word from './Word'
+import Ticker from './Ticker'
 
-const Words = ({ words }) => (
+const Tickers = ({ words }) => (
   <div>
     {words.map(word =>
-      <Word key={word.id}
+      <Ticker key={word.id}
         {...word}
       />
     )}
@@ -19,4 +19,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps)(Words)
+export default connect(mapStateToProps)(Tickers);

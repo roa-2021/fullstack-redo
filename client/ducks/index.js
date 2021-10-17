@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import words from './words'
+import tickers from './tickers'
 
 export default combineReducers({
-  words
-})
+  tickers,
+});

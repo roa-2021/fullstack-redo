@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Word = (props) => (
+const Ticker = (props) => (
   <div>{props.word}</div>
 )
 
-export default Word
+export default Ticker;
